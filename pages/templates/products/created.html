@@ -1,0 +1,9 @@
+{% extends 'pages/base.html' %}
+
+{% block content %}
+    <div class="container mt-5">
+        <h1>Product created</h1>
+        <p>The product has been created successfully!</p>
+        <a href="{% url 'home' %}" class="btn btn-primary">Return to Home</a>
+    </div>
+{% endblock %}
