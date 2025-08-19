@@ -20,7 +20,7 @@ class AboutPageView(TemplateView):
             "title": "About us - Online Store", 
             "subtitle": "About us", 
             "description": "This is an about page for the online store", 
-            "author": "Developed by: Luis Estiven Moreno", 
+            "author": "Developed by: Luis Estiven Moreno G", 
         }) 
  
         return context 
@@ -34,7 +34,7 @@ class ContactPageView(TemplateView):
             "title": "Contact us - Online Store",
             "subtitle": "Contact us",
             "description": "This is the contact page for the online store",
-            "author": "Developed by: Luis Estiven Moreno",
+            "author": "Developed by: Luis Estiven Moreno G",
             "email": "Email: contactus@email.com",
             "number": "Number: 3005905939",
             "address": "Address: 23 Main St, Jing, Nepal",
