@@ -19,7 +19,7 @@ class AboutPageView(TemplateView):
         context.update({ 
             "title": "About us - Online Store", 
             "subtitle": "About us", 
-            "description": "This is an about page", 
+            "description": "This is an about page for the online store", 
             "author": "Developed by: Luis Estiven Moreno", 
         }) 
  
@@ -33,7 +33,7 @@ class ContactPageView(TemplateView):
         context.update({
             "title": "Contact us - Online Store",
             "subtitle": "Contact us",
-            "description": "This is the contact page",
+            "description": "This is the contact page for the online store",
             "author": "Developed by: Luis Estiven Moreno",
             "email": "Email: contactus@email.com",
             "number": "Number: 3005905939",
